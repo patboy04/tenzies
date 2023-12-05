@@ -92,3 +92,77 @@ main > h3 {
     font-size: 25px;
 }
 
+/*MEDIA QUERY 700PX*/
+
+  @media only screen and (max-width: 700px) {
+    main > h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    main > h3 {
+        max-width: 60vw;
+        font-size: 1rem;
+    }
+    
+    .dice--container {
+        margin: 25px;
+        gap: 15px;
+    }
+    
+    .dice {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .dice--number {
+        font-size: 1.5rem;
+    }
+    
+    .dice--rollButton {
+        width: 180px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    
+    .stopwatch--seconds {
+        font-size: 1rem;
+    }
+  }
+
+
+/*MEDIA QUERY 450PX*/   
+  @media only screen and (max-width: 391px) {
+    main > h1 {
+        font-size: 1.5rem;
+    }
+    
+    main > h3 {
+        max-width: 80vw;
+        font-size: 0.9rem;
+    }
+    
+    .dice--container {
+        margin: 5px;
+        gap: 5px;
+    }
+    
+    .dice {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .dice--number {
+        font-size: 1rem;
+    }
+    
+    .dice--rollButton {
+        width: 120px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .stopwatch--seconds {
+        font-size: 0.8rem;
+    }
+  }
